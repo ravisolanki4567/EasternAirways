@@ -302,7 +302,7 @@ class Reservation extends Component {
                     <ConfirmBooking />
                     <Payment
                       single={false}
-                      name={"Eastern Airways"}
+                      name={"Eastern Airwayss"}
                       description={"flight from CAI to LAX "}
                       amount={2191}
                     />

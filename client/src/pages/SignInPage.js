@@ -13,7 +13,7 @@ export default class SignInPage extends Component {
         <div className="signin-logo">
           <Logo />{" "}
           <p>
-            Eastern Airways can help you
+            Eastern Airwayss can help you
             <br /> find your ideal flight !
           </p>
         </div>
