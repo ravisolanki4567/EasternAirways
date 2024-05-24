@@ -706,7 +706,7 @@ class EditDeparture extends Component {
                   >
                     <Payment
                       single={true}
-                      name={"Eastern Airwayss"}
+                      name={"Eastern Airways"}
                       description={"flight"}
                       amount={this.state.editReservation.TotalPrice}
                     />
@@ -745,7 +745,7 @@ class EditDeparture extends Component {
                   {this.state.activeStep === 3 ? (
                     <Payment
                       single={true}
-                      name={"Eastern Airwayss"}
+                      name={"Eastern Airways"}
                       description={"flight  "}
                       amount={this.state.editReservation.TotalPrice}
                     />
