@@ -6,7 +6,7 @@ export default class Logo extends Component {
     return (
       <div className="logo">
         <FlightTakeoffIcon style={{ fontSize: "40px", marginRight: "10px" }} />
-        <p>London Airways</p>
+        <p>Ealing Airways</p>
       </div>
     );
   }

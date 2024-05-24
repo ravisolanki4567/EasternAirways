@@ -13,7 +13,7 @@ export default class SignInPage extends Component {
         <div className="signin-logo">
           <Logo />{" "}
           <p>
-            London Airways can help you
+            Ealing Airways can help you
             <br /> find your ideal flight !
           </p>
         </div>
