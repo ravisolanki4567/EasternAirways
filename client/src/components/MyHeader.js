@@ -94,10 +94,22 @@ class MyHeader extends Component {
     //--- setting the state of search fields upon change
     //doing the search and filtering
     const value = e.target.value;
-    this.setState({
-      ...this.state,
-      [e.target.name]: value,
-    });
+    const name = e.target.name;
+    if (name === "adultCount" || name === "childCount") {
+      if (value && Number(value) > 6) {
+        alert(`You can't reserve more then 6 tickets`);
+      } else {
+        this.setState({
+          ...this.state,
+          [e.target.name]: value,
+        });
+      }
+    } else {
+      this.setState({
+        ...this.state,
+        [e.target.name]: value,
+      });
+    }
   }
 
   handleSignIn() {

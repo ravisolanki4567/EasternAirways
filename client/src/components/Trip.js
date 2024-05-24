@@ -102,7 +102,7 @@ export default class Trip extends Component {
           </div>
           <div className="vl"></div>
           <div className="trip-flex-col" style={{ width: "30%" }}>
-            <h3>{totalPrice}$</h3>
+            <h3>{totalPrice}£</h3>
             <Link
               to={{
                 pathname: "/reserve",

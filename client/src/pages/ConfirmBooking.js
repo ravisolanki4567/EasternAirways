@@ -97,7 +97,7 @@ class ConfirmBooking extends Component {
                   </p>
                 </div>
 
-                <p className="emphasis">{deptPrice}$</p>
+                <p className="emphasis">{deptPrice}£</p>
               </div>
 
               <div className="booking-flight">
@@ -129,12 +129,12 @@ class ConfirmBooking extends Component {
                   </p>
                 </div>
 
-                <p className="emphasis">{retPrice}$</p>
+                <p className="emphasis">{retPrice}£</p>
               </div>
             </div>
             <div className="vl"></div>
             <div className="trip-flex-col" style={{ width: "30%" }}>
-              <h3>{totalPrice}$</h3>
+              <h3>{totalPrice}£</h3>
               {!localStorage.getItem("token") ? (
                 <Button
                   onClick={this.handleSignInModal.bind(this)}

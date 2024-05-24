@@ -88,7 +88,7 @@ class SingleFlight extends Component {
                         compare prices 
                         old>new -> old - new 
                         new>old -> new - old */}
-            <h3>{flight[sessionStorage.getItem("cabinSearch")].PriceAdult}$</h3>
+            <h3>{flight[sessionStorage.getItem("cabinSearch")].PriceAdult}£</h3>
             <Button
               style={{
                 backgroundColor: "#37A1E2",
